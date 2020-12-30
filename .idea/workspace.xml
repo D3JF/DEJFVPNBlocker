@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df6f503e-3d8f-42f1-b784-e25a60b18ba3" name="Default Changelist" comment="" />
+    <list default="true" id="df6f503e-3d8f-42f1-b784-e25a60b18ba3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jiCYiiutg8FVF8ZTAjB6CG5lA0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Beta Test Server/craftbukkit1-7-3(1060).jar" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -87,25 +96,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604278259885" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605022334392">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1609348782208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605022334392" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605022334392">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609348782208" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1609348782208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605022334392" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605022334391">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609348782208" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1609348782208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605022334391" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605022334392">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609348782208" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1609348782208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605022334392" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609348782208" />
     <state x="440" y="93" key="SettingsEditor" timestamp="1604278156316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604278156316" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609348638535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609348638535" />
   </component>
 </project>

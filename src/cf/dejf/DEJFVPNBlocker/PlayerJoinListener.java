@@ -11,14 +11,14 @@ public class PlayerJoinListener extends PlayerListener {
     @Override
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
-        String playerName = player.getName();
         String playerIp = "0.0.0.0";
 
         if(player.getAddress().getHostName() != null) {
             playerIp = player.getAddress().getHostName();
         }
 
-        System.out.println("[DEJFVPNBlocker] Player " + playerName + " from IP " + playerIp);
+        System.out.println("[DEJFVPNBlocker] Player " + player.getName() + " is trying to join from IP " + playerIp);
+
         try {
             if(HTTPRequester.isVPN(playerIp)) {
                 System.out.println("[DEJFVPNBlocker] This player is on a VPN!");
@@ -33,6 +33,6 @@ public class PlayerJoinListener extends PlayerListener {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
+
 }
