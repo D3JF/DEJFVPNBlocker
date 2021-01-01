@@ -7,10 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df6f503e-3d8f-42f1-b784-e25a60b18ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/IPLogEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DEJFVPNBlocker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/DEJFVPNBlocker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/David.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/David.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEJFVPNBlocker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DEJFVPNBlocker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DEJFVPNBlocker/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/HTTPRequester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/HTTPRequester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Beta Test Server/craftbukkit1-7-3(1060).jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -84,41 +95,57 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="324" key="#BuildArtifactsBeforeRunChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604278193720" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604278263590">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609370873735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604278263590" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609370873735" />
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1604280974481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604280974481" />
-    <state x="666" y="260" key="FileChooserDialogImpl" timestamp="1604278259885">
+    <state x="683" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1609471039556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604278259885" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1609348782208">
+    <state x="683" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609471039556" />
+    <state x="1060" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609470621958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609348782208" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1609348782208">
+    <state x="1060" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609470621958" />
+    <state x="666" y="260" key="FileChooserDialogImpl" timestamp="1609354907499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609348782208" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1609348782208">
+    <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609354907499" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1609479319256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609348782208" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1609348782208">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609479319256" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1609479319255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609348782208" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1604278156316">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609479319255" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1609479319255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604278156316" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609479319255" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1609479319255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609479319255" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1609478073053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609478073053" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609348638535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609348638535" />
+    <state x="808" y="166" width="892" height="811" key="find.popup" timestamp="1609479291034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="166" width="892" height="811" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609479291034" />
+    <state x="342" y="139" key="new project wizard" timestamp="1609368032758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1609368032758" />
   </component>
 </project>

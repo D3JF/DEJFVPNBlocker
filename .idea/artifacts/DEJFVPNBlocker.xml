@@ -3,7 +3,7 @@
     <output-path>$USER_HOME$/Desktop/Beta Test Server/plugins</output-path>
     <root id="archive" name="DEJFVPNBlocker.jar">
       <element id="module-output" name="DEJFVPNBlocker" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/plugin.yml" />
     </root>
   </artifact>
 </component>

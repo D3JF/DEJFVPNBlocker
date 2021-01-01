@@ -5,6 +5,9 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerListener;
 
 import java.io.IOException;
+import java.util.Date;
+
+import static cf.dejf.DEJFVPNBlocker.DEJFVPNBlocker.*;
 
 public class PlayerJoinListener extends PlayerListener {
 
@@ -20,7 +23,20 @@ public class PlayerJoinListener extends PlayerListener {
         System.out.println("[DEJFVPNBlocker] Player " + player.getName() + " is trying to join from IP " + playerIp);
 
         try {
-            if(HTTPRequester.isVPN(playerIp)) {
+            boolean isVPN;
+
+            if(ipLog.containsKey(playerIp)) {
+                IPLogEntry ipLogEntry = ipLog.get(playerIp);
+                isVPN = ipLogEntry.isVPN();
+                System.out.println("[DEJFVPNBlocker] This IP was found in the local database (i.e. it belongs to an active user).");
+            } else {
+                isVPN = HTTPRequester.checkIp(playerIp);
+                ipLog.put(playerIp, new IPLogEntry(isVPN, new Date()));
+                ConfigManager.saveDatabase();
+                System.out.println("[DEJFVPNBlocker] This IP was not found in the local database (i.e. it is new or the database has cleared itself recently).");
+            }
+
+            if(isVPN) {
                 System.out.println("[DEJFVPNBlocker] This player is on a VPN!");
                 if(DEJFVPNBlocker.whitelistedIps.contains(playerIp)) {
                     System.out.println("[DEJFVPNBlocker] This player will not be kicked as their IP has been whitelisted in the plugin configuration.");

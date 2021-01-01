@@ -1,9 +1,0 @@
-name: DEJFVPNBlocker
-version: 1.0
-main: cf.dejf.DEJFVPNBlocker.DEJFVPNBlocker
-commands:
-  vpnblocker:
-    description: Core command for DEJFVPNBlocker.
-    usage: /vpnblocker <arguments>
-    permission: dejfvpnblocker.vpnblocker
-    permission-message: You don't have permission.

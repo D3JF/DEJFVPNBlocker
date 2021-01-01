@@ -10,19 +10,19 @@ public class HTTPRequester {
 
     private static final String USER_AGENT = "Mozilla/5.0";
 
-    public static boolean isVPN(String ip) throws IOException {
+    public static boolean checkIp(String ip) throws IOException {
 
         URL obj = new URL("https://whatismyipaddress.com/ip/" + ip);
 
-        HttpURLConnection httpURLConnection = (HttpURLConnection) obj.openConnection();
-        httpURLConnection.setRequestMethod("GET");
-        httpURLConnection.setRequestProperty("User-Agent", USER_AGENT);
+        HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
+        connection.setRequestMethod("GET");
+        connection.setRequestProperty("User-Agent", USER_AGENT);
 
-        int responseCode = httpURLConnection.getResponseCode();
+        int responseCode = connection.getResponseCode();
 
         if (responseCode == HttpURLConnection.HTTP_OK) {
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+            BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String inputLine;
             StringBuilder response = new StringBuilder();
 
@@ -31,11 +31,7 @@ public class HTTPRequester {
             }
             in.close();
 
-            if(response.toString().contains("Network sharing device or proxy server") || response.toString().contains("Corporate")) {
-                return true;
-            } else {
-                return false;
-            }
+            return response.toString().contains("Network sharing device or proxy server") || response.toString().contains("Corporate");
 
         } else {
             System.out.println("GET request for VPN check failed!");
