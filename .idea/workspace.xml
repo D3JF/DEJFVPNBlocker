@@ -7,21 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df6f503e-3d8f-42f1-b784-e25a60b18ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/IPLogEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DEJFVPNBlocker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/DEJFVPNBlocker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/David.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/David.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEJFVPNBlocker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DEJFVPNBlocker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEJFVPNBlocker/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/ConfigManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/HTTPRequester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/HTTPRequester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
