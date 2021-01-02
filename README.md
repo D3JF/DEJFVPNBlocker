@@ -3,7 +3,12 @@
 
 ## How to use
 
+###### 100% free to use! There is no expensive VPN checking service you have to pay for and no complicated configuration.
+
 The plugin automatically kicks any player with an IP suspected to belong to a VPN service. You can customize the kick message by editing the automatically generated config file. If a player is being kicked erroneously, you may also whitelist their IP address in the config file or through a command.
+
+**whatismyaddress.com** is queried to check for VPNs, which is technically against ToS of the website, but the query rate is low and essentially drops to zero once a cache of IPs builds up, so there should be no problems. Every checked IP gets stored in a database for a default of 7 days (as of version 1.1). This period can be modified in the plugin's configuration, but we recommend keeping it low in case a new VPN service's IP gets re-evaluated and properly detected as belonging to a VPN.
+
 
 ## Commands
 
