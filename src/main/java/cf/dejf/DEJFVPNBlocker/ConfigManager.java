@@ -1,7 +1,6 @@
 package cf.dejf.DEJFVPNBlocker;
 
 
-import cf.dejf.DEJFVPNBlocker.DEJFVPNBlocker;
 import org.bukkit.util.config.Configuration;
 import java.io.File;
 import java.util.*;
@@ -13,6 +12,7 @@ public class ConfigManager {
     public static void save() {
         Configuration config = getPluginConfig("config.cfg");
         config.setProperty("whitelistedIps", whitelistedIps);
+        config.setProperty("blacklistedIps", blacklistedIps);
         config.save();
     }
 
@@ -33,10 +33,6 @@ public class ConfigManager {
     public static void load() {
         Configuration config = getPluginConfig("config.cfg");
 
-        List<String> whitelistedIpsLoad;
-        String kickMessageLoad;
-        int databaseClearIntervalSecondsLoad;
-
         if(config.getProperty("whitelistedIps") == null) {
             List<String> defaultWhitelistedIps = new ArrayList<>();
             defaultWhitelistedIps.add("0.0.0.0");
@@ -45,18 +41,41 @@ public class ConfigManager {
             whitelistedIps = defaultWhitelistedIps;
             config.save();
         } else {
-            whitelistedIpsLoad =(List<String>) config.getProperty("whitelistedIps");
-            whitelistedIps = whitelistedIpsLoad;
+            whitelistedIps = (List<String>) config.getProperty("whitelistedIps");
         }
 
-        if(config.getProperty("kickMessageLoad") == null) {
-            String defaultKickMessage = "VPN connections aren't allowed!";
-            config.setProperty("kickMessage", defaultKickMessage);
-            kickMessage = defaultKickMessage;
+        if(config.getProperty("blacklistedIps") == null) {
+            blacklistedIps = new ArrayList<>();
+            blacklistedIps.add("Your blacklisted IP here");
+            config.setProperty("blacklistedIps", blacklistedIps);
             config.save();
         } else {
-            kickMessageLoad = (String) config.getProperty("kickMessage");
-            kickMessage = kickMessageLoad;
+            blacklistedIps = (List<String>) config.getProperty("blacklistedIps");
+        }
+
+        if(config.getProperty("kickMessage") != null) {
+            config.setProperty("vpnKickMessage", config.getProperty("kickMessage"));
+            vpnKickMessage = (String) config.getProperty("kickMessage");
+            config.removeProperty("kickMessage");
+            config.save();
+        }
+
+        if(config.getProperty("vpnKickMessage") == null) {
+            String defaultVpnKickMessage = "VPN connections aren't allowed!";
+            config.setProperty("vpnKickMessage", defaultVpnKickMessage);
+            vpnKickMessage = defaultVpnKickMessage;
+            config.save();
+        } else {
+            vpnKickMessage = (String) config.getProperty("vpnKickMessage");
+        }
+
+        if(config.getProperty("blacklistKickMessage") == null) {
+            String defaultBlacklistKickMessage = "Your IP has been blacklisted!";
+            config.setProperty("blacklistKickMessage", defaultBlacklistKickMessage);
+            blacklistKickMessage = defaultBlacklistKickMessage;
+            config.save();
+        } else {
+            blacklistKickMessage = (String) config.getProperty("blacklistKickMessage");
         }
 
         if(config.getProperty("databaseClearIntervalSeconds") == null) {
@@ -65,8 +84,7 @@ public class ConfigManager {
             databaseClearIntervalSeconds = defaultDatabaseClearIntervalSeconds;
             config.save();
         } else {
-            databaseClearIntervalSecondsLoad = (int) config.getProperty("databaseClearIntervalSeconds");
-            databaseClearIntervalSeconds = databaseClearIntervalSecondsLoad;
+            databaseClearIntervalSeconds = (int) config.getProperty("databaseClearIntervalSeconds");
         }
 
         Configuration database = getPluginConfig("ipdatabase.yml");

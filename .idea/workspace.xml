@@ -7,7 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df6f503e-3d8f-42f1-b784-e25a60b18ba3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/David.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/David.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/DEJFVPNBlocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/dejf/DEJFVPNBlocker/PlayerJoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -81,6 +86,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="324" key="#BuildArtifactsBeforeRunChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604278193720" />
+    <state x="552" y="177" key="#Project_Structure" timestamp="1609480165376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1609480165376" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609370873735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -101,22 +110,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609354907499" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1609479319256">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1609611872011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609479319256" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1609479319255">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609611872011" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1609611872011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609479319255" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1609479319255">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609611872011" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1609611872011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609479319255" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1609479319255">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609611872011" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1609611872011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609479319255" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609611872011" />
+    <state x="720" y="230" key="RollbackChangesDialog" timestamp="1609601783416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609601783416" />
     <state x="440" y="93" key="SettingsEditor" timestamp="1609478073053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -125,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609348638535" />
-    <state x="808" y="166" width="892" height="811" key="find.popup" timestamp="1609479291034">
+    <state x="808" y="166" width="892" height="811" key="find.popup" timestamp="1609610832987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="166" width="892" height="811" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609479291034" />
+    <state x="808" y="166" width="892" height="811" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609610832987" />
     <state x="342" y="139" key="new project wizard" timestamp="1609368032758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

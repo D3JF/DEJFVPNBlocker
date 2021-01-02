@@ -1,5 +1,5 @@
 name: DEJFVPNBlocker
-version: 1.1
+version: 1.2
 main: cf.dejf.DEJFVPNBlocker.DEJFVPNBlocker
 commands:
   vpnblocker:

@@ -38,14 +38,20 @@ public class PlayerJoinListener extends PlayerListener {
 
             if(isVPN) {
                 System.out.println("[DEJFVPNBlocker] This player is on a VPN!");
-                if(DEJFVPNBlocker.whitelistedIps.contains(playerIp)) {
+                if(whitelistedIps.contains(playerIp)) {
                     System.out.println("[DEJFVPNBlocker] This player will not be kicked as their IP has been whitelisted in the plugin configuration.");
                 } else {
-                    player.kickPlayer(DEJFVPNBlocker.kickMessage);
+                    player.kickPlayer(vpnKickMessage);
                 }
             } else {
                 System.out.println("[DEJFVPNBlocker] This player is most likely not on a VPN.");
             }
+
+            if(blacklistedIps.contains(playerIp)) {
+                System.out.println("[DEJFVPNBlocker] This IP has been blacklisted in the plugin configuration!");
+                player.kickPlayer(blacklistKickMessage);
+            }
+
         } catch (IOException e) {
             e.printStackTrace();
         }
