@@ -43,7 +43,7 @@ public class DEJFVPNBlocker extends JavaPlugin {
         pluginName = pdf.getName();
         log.info("[" + pluginName + "] Loading plugin version " + pdf.getVersion());
 
-        this.getServer().getPluginManager().registerEvent(Event.Type.PLAYER_JOIN, new PlayerJoinListener(), Event.Priority.Normal, this);
+        this.getServer().getPluginManager().registerEvent(Event.Type.PLAYER_JOIN, new PlayerJoinListener(plugin), Event.Priority.Normal, this);
         this.getCommand("vpnblocker").setExecutor(this);
         ConfigManager.load();
 
